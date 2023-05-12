@@ -1,6 +1,7 @@
 ENV DEBIAN_FRONTEND=noninteractive
 ARG DEBIAN_FRONTEND=noninteractive
-FROM ubuntu:latest
+
+FROM ghcr.io/ashwinstr/ux-venom-docker:latest
 RUN set -ex;\
     apt-get update;\
     apt-mark hold keyboard-configuration;\
