@@ -32,7 +32,7 @@ RUN apt-get update && apt-get -y install \
 
     python3 python3-dev python3-dev python3-pip python3-venv
 RUN wget https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_linux64.zip&& unzip chromedriver_linux64.zip -d /bin
-RUN apt-get install npm xfce4-terminal byobu sqlitebrowser geany feh openssh-server php busybox neofetch htop tmate tmux -y
+RUN apt-get install xfce4-terminal byobu sqlitebrowser geany feh openssh-server php busybox neofetch htop tmate tmux -y
 #----------------------
 RUN mkdir /work
 RUN cd /work&&git clone https://github.com/novnc/noVNC/
