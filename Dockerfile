@@ -1,4 +1,4 @@
-DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 ARG DEBIAN_FRONTEND=noninteractive
 FROM ubuntu:latest
 RUN set -ex;\
