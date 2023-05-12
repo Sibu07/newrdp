@@ -1,3 +1,5 @@
+DEBIAN_FRONTEND=noninteractive
+ARG DEBIAN_FRONTEND=noninteractive
 FROM ubuntu:latest
 RUN set -ex;\
     apt-get update;\
