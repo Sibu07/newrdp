@@ -1,5 +1,3 @@
-ENV DEBIAN_FRONTEND=noninteractive
-ARG DEBIAN_FRONTEND=noninteractive
 
 FROM ghcr.io/ashwinstr/ux-venom-docker:latest
 RUN set -ex;\
